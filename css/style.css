@@ -1,6 +1,9 @@
 .itin-padding{
   padding-bottom:25px;
 }
+.profile{
+  font-size: .55rem;
+}
 .card-body{
   padding: .35rem !important;
 }
