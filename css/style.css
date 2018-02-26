@@ -1,8 +1,45 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .itin-padding{
   padding-bottom:25px;
 }
 .profile{
   font-size: .55rem;
+  margin: 10px 0 15px 0;
+  background-color: lightgray;
+  padding: 9px;
+}
+
+.profile-img-wrap{
+  text-align: center;
+}
+
+.user-profile-img{
+  width: 50px;
+  border-radius: 100%;
+}
+
+.profile-name-wrap{
+  padding:0!important;
+}
+.profile-name, .traveler-stats span{
+  font-size: .70rem;
+}
+
+.badge-img{
+  padding:3px;
+}
+
+.trip-title-img{
+  z-index: -1;
+}
+
+.trip-header {
+  position: absolute;
+  top: 105px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 .card-body{
   padding: .35rem !important;

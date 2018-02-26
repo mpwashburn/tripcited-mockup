@@ -9,56 +9,78 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 <div class="container itin-padding">
     <!-- <div id="accordion"> -->
-  <div class="profile">
-    <div class="row">
-      <div class="col-3">profile-img</div>
-      <div class="col-3"><p>Michael W.</p></div>
-      <div class="col-6 text-center">
-        <div class="col-12"><p>Badges</p></div>
-        <div class="col-12">
-            <img src="img/desert.png" alt="">
-            <img src="img/mountains.png" alt="">
+    <div class="profile">
+      <div class="row">
+        <div class="col-3 profile-img-wrap">
+          <img src="img/user-profile-img.jpg" class="user-profile-img" alt="">
         </div>
+        <div class="col-5 profile-name-wrap">
+          <span class="profile-name">Michael W.</span><br>
+          <span>Just a traveler that wants to share my experiences with others to inspire them to travel.</span>
+        </div>
+        <div class="col-4 text-center">
+          <div class="col-12"><span>Badges</span></div>
+          <div class="col-12">
+            <img src="img/desert.png" class="badge-img" alt="">
+            <img src="img/mountains.png" class="badge-img" alt="">
+          </div>
+        </div>
+      </div> <!--Close Profile Row-->
+
+
+    <div class="row text-center traveler-stats">
+      <div class="col-12"><span class="">Traveler's Stats</span>
+      </div>
+      <div class="col-3">
+        <span>Trips</span><br>
+        <span>5</span>
+      </div>
+      <div class="col-3">
+        <span>Planned</span><br>
+        <span>3</span>
+      </div>
+      <div class="col-3">
+        <span>Booked</span><br>
+        <span>1</span>
+      </div>
+      <div class="col-3">
+        <span>Followers</span><br>
+        <span>147</span>
+      </div>
     </div>
+  </div><!--Close Profile-->
+  <!--Trip Title--> 
+ 
+  <div class="card">
+    <div class="text-center">
+      <img src="img/portland-skyline.jpg" class="img-fluid" alt="">
     </div>
-    <div class="row text-center">
-      <div class="col-3">
-        <p>Total Trips</p>
-        <p>5</p>
-      </div>
-      <div class="col-3">
-        <p>Planned</p>
-        <p>3</p>
-      </div>
-      <div class="col-3">
-        <p>Booked</p>
-        <p>1</p>
-      </div>
-      <div class="col-3">
-        <p>Followers</p>
-        <p>147</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-      <div class="col-9">
+    
+    <div class="col-12 card-header trip-header">
+      <div class="row">
+      <div class="col-12">
         <h5>Weekend Trip to Portland</h5>
         <h6>Portland, Oregon</h6>
       </div>
-      <div class="col-3">
-        <i class="fa fa-thumbs-up"></i> <small>6</small> 
-        <i class="fa fa-thumbs-down"></i> <small>0</small>
+      <div class="col-6 mt-2 text-left">
+        <span>Dates</span>
       </div>
-    </div>
-      <div class="number-wrap">
-        <div class="number">
-          <span>1</span>
+        <div class=" col-6 mt-2 text-right">
+          <i class="fa fa-thumbs-up"></i> <small>6</small> 
+          <i class="fa fa-thumbs-down"></i> <small>0</small>
         </div>
       </div>
+      </div>
+      </div>
+ 
+
+
+
       <div class="card">
         <div class="card-header card-img text-center" id="flight">
           <a class="card-link" data-toggle="" data-parent="#accordion" href="#collapseOne">
